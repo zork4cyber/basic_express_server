@@ -1,0 +1,28 @@
+{
+  "name": "basic_express_server",
+  "version": "1.0.0",
+  "description": "401n19 express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zork4cyber/basic_express_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zork4cyber/basic_express_server/issues"
+  },
+  "homepage": "https://github.com/zork4cyber/basic_express_server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.2.3",
+    "supertest": "^6.1.6"
+  }
+}
